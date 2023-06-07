@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.container {
+  width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.container .age-calc-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.age-calc-container .input-field {
+  width: 100%;
+  /* height: 45px; */
+  display: flex;
+  gap: 10px;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+}
+.input-field label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.input-field input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.age-calc-container .btn {
+  width: 100%;
+  text-align: center;
+}
+.btn button {
+  padding: 8px 16px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #0072ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.age-calc-container .calculated-age {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.calculated-age span {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  width: calc(100% / 6);
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.calculated-age span h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.calculated-age span p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}

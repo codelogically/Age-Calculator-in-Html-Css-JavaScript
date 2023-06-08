@@ -76,7 +76,7 @@ body {
   justify-content: space-between;
 }
 .calculated-age span {
-  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  background: linear-gradient(45deg, #005bea, #00C6FB);
   width: calc(100% / 6);
   height: 75px;
   display: flex;
